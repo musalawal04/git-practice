@@ -5,3 +5,6 @@ app = FastAPI()
 @app.get("/")
 def greet():
     return {"message": "Hello World"}
+@app.get("/id")
+def addgreetid():
+    return ("greeting")
